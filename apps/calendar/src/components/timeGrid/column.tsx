@@ -161,7 +161,7 @@ export const Column = memo(function Column({
 
   const uiModelsByColumn = totalUIModels[columnIndex];
 
-  const minEventHeight = timeGridRows[0].height;
+  const minEventHeight = 10;
 
   return (
     <div
